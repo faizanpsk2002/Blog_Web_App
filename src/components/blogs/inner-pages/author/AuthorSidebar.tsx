@@ -6,9 +6,6 @@ import thumb_3 from "@/assets/img/blog/author_popular_post03.jpg"
 import thumb_4 from "@/assets/img/blog/author_popular_post04.jpg"
 import Link from "next/link";
 
-import Category from "@/components/common/Category";
-
-
 interface DataType {
    id: number;
    thumb: StaticImageData;
@@ -87,7 +84,6 @@ const AuthorSidebar = () => {
             </div>
            
             <div className="sidebar-widget sidebar-widget-two">
-               <Category />
             </div>
             <div className="sidebar-widget sidebar-widget-two">
               
